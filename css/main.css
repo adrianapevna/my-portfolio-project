@@ -1,0 +1,256 @@
+/***** BASE STYLES *****/
+
+body{
+  font-family: 'Dosis', sans-serif;
+}
+header{
+  height: 708px;
+}
+.picture-side{
+  height: 688px;
+}
+#about{
+  height: 533px;
+}
+#skills{
+  height: 450px;
+}
+#projects{
+  height: 690px;
+}
+#contact{
+  height: 170px;
+}
+#social-media{
+  height: 86px;
+}
+
+/***** GRID SECTION *****/
+
+.full-width{
+  width: 1200px;
+}
+.half-width{
+  width: 600px;
+}
+.third-width{
+  width: 400px;
+  float: left;
+}
+
+.text-side{
+  width: 550px;
+  float: left;
+  margin-left: 50px;
+}
+.picture-side{
+  width: 550px;
+  float: left;
+  margin-right: 50px;
+}
+
+
+/***** HEADER SECTION *****/
+
+nav {
+    padding: 0px 100px 0px 0px;
+}
+nav ul{
+  text-align: center;
+  padding-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:18px;
+    color: black;
+    padding-left: 80px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header h1{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 200px;
+}
+
+header h2{
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -42px;
+}
+
+header h3{
+  font-size: 33px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -35px;
+}
+
+header button {
+    background-color: #eed286; /* yellow */
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    display: block;
+}
+
+
+.picture-side{
+  background: url('../img/cover-picture-ano.png');
+  margin-top: -40px
+}
+
+#logo{
+
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+ top: -35px;
+ }
+
+/***** ABOUT SECTION *****/
+
+ #about{
+   background-color: #eae9e5;
+ }
+
+ #about img{
+   margin: 36px 40px 0px 40px;
+   float: left;
+ }
+
+#about h1 p{
+  float: left;
+}
+
+#about h1{
+  font-size: 33px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+#about p{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+  margin: 0px 40px 0px 0px;
+  padding: 0px 0px 20px 0px;
+}
+
+#about button{
+  background-color: #eed286; /* yellow */
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+  display: block;
+
+}
+
+
+/***** SKILLS SECTION *****/
+
+#skills .full-width{
+  padding: 80px 0px 80px 0px;
+}
+#skills h1{
+  font-size: 33px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#skills img{
+  margin: auto;
+  display: block;
+}
+
+#skills p{
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #493830;
+  width: 230px;
+  margin: auto;
+  display: block;
+}
+
+
+/***** PROJECTS SECTION *****/
+
+#projects{
+  background-color: #eae9e5;
+  overflow: auto;
+}
+
+#projects{
+  padding: 0px 0px 0px 39px;
+
+}
+
+#projects h1{
+  font-size: 33px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#projects img{
+  margin: 0px 0px 0px 0px;
+}
+
+
+/***** CONTACT SECTION *****/
+
+#contact h1{
+  font-size: 33px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#contact button{
+  background-color: #eed286; /* yellow */
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+
+/***** FOOTER SECTION *****/
+
+footer{
+  background-color: #eae9e5;
+}
+
+#social-media ul{
+  justify-content:center;
+  text-align:center;
+  padding-top: 30px;
+}
+#social-media ul li{
+  display: inline-block;
+  padding-left: 10px;
+}
